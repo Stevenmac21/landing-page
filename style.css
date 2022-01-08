@@ -16,33 +16,77 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 0;
+}
+
+button {
+  background: #3882f6;
+  color: #f9faf8;
+  padding: 5px 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
 }
 
 /***HEADER/HERO SECTION***/
-.hero {
+
+.firstSection {
   background: #1f2937;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px 250px 100px 250px;
 }
 
 .header {
-  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.logo {
   font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
   display: flex;
-  align-items: center;
+  padding-top: 10px;
 }
 
-.headerLinks {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-
-a {
+a, ul {
+  font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+  gap: 50px;
+}
+
+.heroMain {
+  flex: 1 1 0;
+}
+
+.heroTitle {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.heroText {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.heroImage {
+  color: #e5e7eb;
+  background: rgb(151, 149, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+  flex: 1 1 0;
 }
 
 
