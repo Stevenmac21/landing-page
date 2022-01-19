@@ -1,6 +1,6 @@
 /****** COLOURS AND FONT STYLES ******/
 /**********************************************************
-HERO AND FOOTER DARK BACKGROUND --- #1F2937
+HERO AND FOOTER DARK BACKGROUND --- #"1F2937"
 HERO MAIN TEXT ("this website is awesome") --- 48px extra-bold #F9FAF8
 HERO 2ND TEXT, HEADER LINK TEXT --- 18px #E5E7EB
 HEADER LOGO TEXT --- 24px #F9FAF8
@@ -19,16 +19,6 @@ body {
   margin: 0%;
 }
 
-button {
-  background: #3882f6;
-  color: #f9faf8;
-  padding: 8px 30px;
-  border-radius: 10px;
-  margin-top: 10px;
-  border: none;
-  font-size: 14px;
-  font-weight: bold;
-}
 
 /***HEADER/HERO SECTION***/
 
@@ -93,6 +83,17 @@ a, ul {
 }
 
 
+.heroButton {
+  background: #3882f6;
+  color: #f9faf8;
+  padding: 8px 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /***IMAGE SECTION***/
 
 .secondSection {
@@ -131,7 +132,7 @@ h2 {
   border-radius: 20px;
 }
 
-p {
+ {
   text-align: center;
   font-size: 20px;
   color: gray;
