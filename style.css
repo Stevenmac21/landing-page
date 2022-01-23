@@ -204,5 +204,17 @@ h2 {
   border-radius: 10px;
   color: white;
   font-weight: bold;  
-
 }
+
+/***FOOTER SECTION***/
+
+.footer {
+  background: #1f2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
+}
+
